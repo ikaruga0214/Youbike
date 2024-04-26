@@ -1,0 +1,59 @@
+@media (max-width: 768px) {
+  .form-select {
+    width: 100%;
+  }
+}
+
+/* .rounded-top-right-20 {
+  border-top-right-radius: 20px !important;
+  overflow: hidden;
+}
+
+.borderColor {
+  border: red;
+} */
+
+table > thead > tr > th:first-child {
+  border-top-left-radius: 20px;
+}
+
+table > thead > tr > th:last-child {
+  border-top-right-radius: 20px;
+}
+
+table > thead > tr > th:nth-child() {
+  cursor: pointer;
+}
+
+Table > tbody > tr:nth-child(odd) > td,
+Table > tbody > tr:nth-child(odd) > th {
+  background-color: white;
+}
+
+Table > tbody > tr:nth-child(even) > td,
+Table > tbody > tr:nth-child(even) > th {
+  background-color: wheat;
+}
+
+Table > tbody > tr > td:first-child {
+  border-left: solid 0.1px #dcdcdc;
+}
+
+Table > tbody > tr > td:last-child {
+  border-right: solid 0.1px #dcdcdc;
+}
+
+Table > tbody > tr:last-child > td {
+  border-bottom: solid 0.1px #dcdcdc;
+}
+
+Table > tbody > tr:last-child > td:first-child {
+  border-bottom: solid 0.1px #dcdcdc;
+  border-bottom-left-radius: 20px;
+}
+
+Table > tbody > tr:last-child > td:last-child {
+  border-bottom: solid 0.1px #dcdcdc;
+  border-bottom-right-radius: 20px;
+  border-collapse: separate;
+}
